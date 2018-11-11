@@ -1,7 +1,7 @@
 opsman-configuration:
   aws:
-    access_key_id: ((access_key_id))
-    secret_access_key: ((secret_access_key))
+    access_key_id: ((123access_key_id))
+    secret_access_key: ((123secret_access_key))
     region: us-east-1
     vm_name: ops-manager-vm                           # default: OpsManager-vm
     boot_disk_size: 100                               # default 200
