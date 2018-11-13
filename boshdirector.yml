@@ -1,0 +1,100 @@
+---
+az-configuration:
+- name: ((us-east-1a))
+  iaas_configuration_guid: 6e6247a2f5c8e20753ac
+- name: ((us-east-1b))
+  iaas_configuration_guid: 6e6247a2f5c8e20753ac
+director-configuration:
+  allow_legacy_agents: true
+  blobstore_type: local
+  bosh_recreate_on_next_deploy: false
+  database_type: internal
+  director_worker_count: 5
+  disable_dns_release: false
+  encryption:
+    keys: []
+    providers: []
+  excluded_recursors: []
+  hm_emailer_options:
+    enabled: false
+  hm_pager_duty_options:
+    enabled: false
+  identification_tags: {}
+  keep_unreachable_vms: false
+  local_blobstore_options:
+    tls_enabled: false
+  ntp_servers_string: 0.amazon.pool.ntp.org, 1.amazon.pool.ntp.org, 2.amazon.pool.ntp.org,
+    3.amazon.pool.ntp.org
+  post_deploy_enabled: false
+  resurrector_enabled: true
+  retry_bosh_deploys: false
+iaas-configuration:
+  encrypted: false
+  guid: 6e6247a2f5c8e20753ac
+  key_pair_name: pcf-ops-manager-key
+  name: default
+  region: us-east-1
+  security_group: sg-049e9da642e469b87
+network-assignment:
+  network:
+    name: pcf-management-network
+  other_availability_zones: []
+  singleton_availability_zone:
+    name: us-east-1a
+networks-configuration:
+  icmp_checks_enabled: false
+  networks:
+  - name: pcf-management-network
+    subnets:
+    - iaas_identifier: subnet-0dec772847b694f01
+      cidr: 10.0.16.0/28
+      dns: 10.0.0.2
+      gateway: 10.0.16.1
+      reserved_ip_ranges: 10.0.16.0-10.0.16.4
+      availability_zone_names:
+      - us-east-1a
+  - name: pcf-pas-network
+    subnets:
+    - iaas_identifier: subnet-0dc0ec4f7ae4ee4eb
+      cidr: 10.0.4.0/24
+      dns: 10.0.0.2
+      gateway: 10.0.4.1
+      reserved_ip_ranges: 10.0.4.0-10.0.4.4
+      availability_zone_names:
+      - us-east-1a
+  - name: pcf-services-network
+    subnets:
+    - iaas_identifier: subnet-06bd5af7e694fcfd8
+      cidr: 10.0.8.0/24
+      dns: 10.0.0.2
+      gateway: 10.0.8.1
+      reserved_ip_ranges: 10.0.8.0-10.0.8.3
+      availability_zone_names:
+      - us-east-1a
+  - name: pcf-public-subnet
+    subnets:
+    - iaas_identifier: subnet-03a4624ed3468d266
+      cidr: 10.0.0.0/24
+      dns: 10.0.0.2
+      gateway: 10.0.0.1
+      reserved_ip_ranges: 10.0.0.0-10.0.0.4, 10.0.0.30
+      availability_zone_names:
+      - us-east-1a
+resource-configuration:
+  compilation:
+    instances: 1
+    instance_type:
+      id: automatic
+    internet_connected: false
+  director:
+    instances: automatic
+    persistent_disk:
+      size_mb: automatic
+    instance_type:
+      id: automatic
+    internet_connected: false
+security-configuration:
+  generate_vm_passwords: true
+syslog-configuration:
+  enabled: false
+vmextensions-configuration: []
