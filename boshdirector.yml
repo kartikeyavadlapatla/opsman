@@ -27,6 +27,8 @@ director-configuration:
   resurrector_enabled: true
   retry_bosh_deploys: false
 iaas-configuration:
+  access_key_id: (123access_key_id)
+  secret_access_key: (123secret_access_key)
   encrypted: false
   key_pair_name: pcf-ops-manager-key
   ssh_private_key:  |-
