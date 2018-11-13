@@ -61,7 +61,7 @@ iaas-configuration:
 network-assignment:
   network:
     name: pcf-management-network
-  other_availability_zones: [us-east-1a]
+  other_availability_zones: []
   singleton_availability_zone:
     name: us-east-1a
 networks-configuration:
