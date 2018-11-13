@@ -28,8 +28,31 @@ director-configuration:
   retry_bosh_deploys: false
 iaas-configuration:
   encrypted: false
-  guid: 6e6247a2f5c8e20753ac
   key_pair_name: pcf-ops-manager-key
+  ssh_private_key:  |-
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEowIBAAKCAQEAnoNEMoUTsu2kxdDpezXjPPifhCkRRHrAcfx8wKxTBZf/HspQP4jdJ/qbAdc3
+    n5X/TlLehGVPpTt0yHRCi//MCbuVQo62FxoWska8pQX70n/L7qPVnggC56L46i9Hs9tgy0VhUVBh
+    Dbxyt+Uw8B+mJ3EIT8FHpItSJRoPS2w1Ov3QOmF/xGhMZ67gyzLdCAEcjuePOvNSSNnNPvwDaw+e
+    fKOwKwXaNdpX2hhDFCJFqeQ4gCJddkiX9mkQPkbgQATNreMLPQ8/IjCumu8eDHKKfiJZDIX0KPvD
+    rYRgt55c24OEIaR0OsxGXJ8+02/r4gLFW6PTpuCzvGaS8yG8xM5x9wIDAQABAoIBAGr35lO5XlvG
+    5wTfQFB3QwvoM616ET8HH0tMudtD7xq9QdrDaHgXojbSdTw+wjidfpaacbMisyasAtkrK6VST5zZ
+    y5YIvHTGlD5mYfNzIEcjGrnGMefdPCiY4CUZFugWyTEjdtLqzTP50eirb+T7VqMTMiqwIeq2Yg7L
+    kTqyoRFXGFF10jwJrPjQ2ujMoXp4VHKdmRyvwYoUU19ReLp4dtrLzfibAhbBFjxIFfcxl/HL0mdf
+    EmRVCdWxOfK1CqOp/sXNY+rYwF3/cqi3zMfLL8uKpvNPY1oRTG8fhbneHAkjdleBZ9HttrD8/et6
+    bUjjeDXc3avbetl2UgqX8WpwqnECgYEA5/DLCeZpimxQdyP3smgiwh+cQ2T4FGCEbgxf+VGjqATM
+    Sqqb5Fnp7Snz2HlOHKX0ZViF0RcC9KvVsEQn7g6eZL+H9vHhVsEyWhzgyueBJusjIk+ssGfrvau2
+    nsmxo5CcdZcC4/tgdKfX71ozT3jSDXaPy1wf2ZO7ZtDGCEIWXd0CgYEArvSW3gxrRhVEb4xCdVXe
+    wM3F38CVEBNXqtHwAaYEKw4AZb4LLSDuPwMWwRaieiZbNgO55asRvNZZWoNb+7d37Fd2Jc7ixzfi
+    jaKRHKd5AM61PwPwww6Q8OBzcPPXaUn6tLAGpTG3gV63u/g1z5iprdOpDY4osWErMVC8QaR0I+MC
+    gYEAwPjIFN6NJMvlTpqwNNELSjN+kVvqQxniVKUbHJXd8aa8ScsUlLJyPA3RgWO7p34zjjZOb54T
+    qXll+pdaGWg0RGJOPxkTgFiRCgRIysg93iF4Q83CQarUqiO5dvccQpfIdNVFZGT65VPYBp4nXpGJ
+    QgZIsMte/Gk7W9mLSceiUEkCgYAynh88FRnASAzpvQnJStPMsnwqVVyLLx1xFZY7091m24Ev7oDr
+    SJjFcE5YBQVzE7/V69QP56OVH+rwLgsh054FqfRL0gR4oOmSEtOrF6UBn8x+c9RnisJSfo3HwzSy
+    iK3ZMwhpKO4vpsi/wHtJGaEV4qQJgPSzBSrq9LHSyBK2AwKBgCOLpgvl78H6IqGqJp6ERb043wYh
+    OdsotTLGRavySKNDaGDG6sh6SEJXsgYW2TrCSGBp8kHOYtXFr63aaMorEwXvVNEejbJnCf3e3B2D
+    8V3qsPnN2k5B0pZwbquyajeSwma/uMWlIYJDlmiaWI1YccVdXkt+rpSfWKzIb4+OvfVG
+    -----END RSA PRIVATE KEY-----
   name: default
   region: us-east-1
   security_group: sg-049e9da642e469b87
