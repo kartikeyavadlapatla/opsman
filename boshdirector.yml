@@ -1,8 +1,8 @@
 ---
 az-configuration:
-- name: ((us-east-1a))
+- name: ((123us-east-1a))
   iaas_configuration_guid: 6e6247a2f5c8e20753ac
-- name: ((us-east-1b))
+- name: ((123us-east-1b))
   iaas_configuration_guid: 6e6247a2f5c8e20753ac
 director-configuration:
   allow_legacy_agents: true
