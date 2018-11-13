@@ -1,7 +1,7 @@
 ---
 az-configuration:
-- name: ((123us-east-1a))
-- name: ((123us-east-1b))
+- name: us-east-1a
+- name: us-east-1b
 director-configuration:
   allow_legacy_agents: true
   blobstore_type: local
