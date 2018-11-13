@@ -1,9 +1,7 @@
 ---
 az-configuration:
 - name: ((123us-east-1a))
-  iaas_configuration_guid: 6e6247a2f5c8e20753ac
 - name: ((123us-east-1b))
-  iaas_configuration_guid: 6e6247a2f5c8e20753ac
 director-configuration:
   allow_legacy_agents: true
   blobstore_type: local
