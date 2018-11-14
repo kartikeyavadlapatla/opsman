@@ -31,7 +31,7 @@ iaas-configuration:
   secret_access_key: ((123secret_access_key))
   encrypted: false
   key_pair_name: pcf-ops-manager-key
-  ssh_private_key: |
+  ssh_private_key: |-
     -----BEGIN RSA PRIVATE KEY-----
     MIIEowIBAAKCAQEAnoNEMoUTsu2kxdDpezXjPPifhCkRRHrAcfx8wKxTBZf/HspQP4jdJ/qbAdc3
     n5X/TlLehGVPpTt0yHRCi//MCbuVQo62FxoWska8pQX70n/L7qPVnggC56L46i9Hs9tgy0VhUVBh
