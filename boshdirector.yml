@@ -91,7 +91,7 @@ networks-configuration:
       cidr: 10.0.8.0/24
       dns: 10.0.0.2
       gateway: 10.0.8.1
-      reserved_ip_ranges: 10.0.8.0-10.0.8.3
+      reserved_ip_ranges: 10.0.8.0-10.0.8.4
       availability_zone_names:
       - us-east-1a
   - name: pcf-public-subnet
