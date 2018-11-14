@@ -11,4 +11,4 @@ opsman-configuration:
     iam_instance_profile_name: dev_ops_manager
     public_ip: 54.224.25.8
     private_ip: 10.0.0.72
-    instance_type: m5.large
+    instance_type: t2.medium
