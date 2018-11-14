@@ -60,7 +60,7 @@ iaas-configuration:
   security_group: sg-049e9da642e469b87
 network-assignment:
   network:
-    name: pcf-management-network
+    name: pcf-services-network
   other_availability_zones: []
   singleton_availability_zone:
     name: us-east-1a
