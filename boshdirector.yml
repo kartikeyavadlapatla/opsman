@@ -73,7 +73,7 @@ networks-configuration:
       cidr: 10.0.16.0/28
       dns: 10.0.0.2
       gateway: 10.0.16.1
-      reserved_ip_ranges: 10.0.16.0-10.0.16.4
+      reserved_ip_ranges: 10.0.16.0-10.0.16.7
       availability_zone_names:
       - us-east-1a
   - name: pcf-pas-network
@@ -100,7 +100,7 @@ networks-configuration:
       cidr: 10.0.0.0/24
       dns: 10.0.0.2
       gateway: 10.0.0.1
-      reserved_ip_ranges: 10.0.0.0-10.0.0.4, 10.0.0.30
+      reserved_ip_ranges: 10.0.0.0-10.0.0.7, 10.0.0.30, 10.0.0.72
       availability_zone_names:
       - us-east-1a
 resource-configuration:
