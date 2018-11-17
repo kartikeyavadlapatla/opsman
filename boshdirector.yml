@@ -107,14 +107,14 @@ resource-configuration:
   compilation:
     instances: 1
     instance_type:
-      id: t2.medium
+      id: automatic
     internet_connected: false
   director:
     instances: automatic
     persistent_disk:
       size_mb: automatic
     instance_type:
-      id: automatic
+      id: t2.medium
     internet_connected: false
 security-configuration:
   generate_vm_passwords: true
