@@ -112,7 +112,7 @@ resource-configuration:
   director:
     instances: automatic
     persistent_disk:
-      size_mb: automatic
+      size_mb: t2.medium
     instance_type:
       id: automatic
     internet_connected: false
